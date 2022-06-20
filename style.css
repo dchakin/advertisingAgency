@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Century Gothic";
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-container {
+  min-height: calc(100vh - 78px);
+}
+
+/* ==========HEADER========== */
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 200px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  font-weight: 700;
+}
+
+.header-bar-item:hover a {
+  text-decoration: underline;
+}
+/* ==========/HEADER========== */
+
+/*==========MAIN==========  */
+.complex-page-bg {
+  background-image: url(img/bg_mp.png);
+  background-size: cover;
+  height: 590px;
+}
+
+.complex-page-header {
+  font-size: 64px;
+  color: white;
+  width: 200px;
+  padding-top: 150px;
+}
+
+.work-time {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  width: 600px;
+}
+
+.work-time span {
+  font-size: 24px;
+}
+
+.advantages-bg {
+  background-color: #0176a9;
+  padding: 80px 0;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.advantages-img {
+  margin-bottom: 20px;
+  width: 130px;
+  height: 130px;
+}
+
+.request-content-header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.request-content {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.request {
+  padding: 10px 10px;
+  width: 700px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.btn-request {
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 50px;
+  max-width: 300px;
+  background-color: #0176a9;
+  border: 3px solid transparent;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-request:hover {
+  border: 3px solid black;
+}
+
+.footer-bg {
+  background-color: #0176a9;
+  padding: 30px 0;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content a {
+  color: white;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-content-right {
+  display: flex;
+}
+
+.video-content {
+  text-align: center;
+  padding-top: 50px;
+}
+/*==========/MAIN==========  */
+
+/*==========ABOUT==========  */
+.about-header,
+.about-list-header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.about-list-first,
+.about-list-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-list-item {
+  width: 45%;
+  margin: 50px 0;
+}
+/*==========/ABOUT==========  */
+
+/*==========CONTACTS==========  */
+.contacts-text {
+  margin-top: 30px;
+}
+
+.contacts-text-header {
+  font-weight: 700;
+}
+
+.contacts-text span {
+  color: #0176a9;
+}
+
+.contacts-map {
+  padding: 50px 0;
+}
+
+.about-personal-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-personal-item {
+  width: calc(1200px / 5);
+}
+
+.about-personal-item img {
+  width: calc(1200px / 5);
+}
+
+.about-personal-info span {
+  color: #0176a9;
+}
+
+.about-info-name {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.contacts-table th {
+  font-size: 16px;
+
+}
+.contacts-table td {
+  font-size: 13px;
+  color: #354251;
+}
+
+.contacts-table td,
+.contacts-table th {
+  padding: 15px 40px;
+  border: 1px solid #0f65a3;
+}
+
+.contacts-table-head td {
+  background-color: #cfdfeb;
+}
+
+/*==========/CONTACTS==========  */
+
+/*==========PORTFOLIO==========  */
+.portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+  width: 30%;
+  margin-bottom: 30px;
+}
+/*==========/PORTFOLIO==========  */
+
+/* ==========PROMOTION========== */
+.promotion-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.promotion-item {
+  width: 30%;
+  margin: 15px 0;
+}
+
+.promotion-item-img {
+  width: 100%;
+  height: 200px;
+}
+
+.promotion-item-text {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.promotion-item-date span {
+  color: #0176a9;
+}
+/* ==========/PROMOTION========== */
+
+/* ==========AUTHOR========== */
+.author-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author-img {
+  width: 500px;
+  left: 150px;
+}
+
+.about-info span {
+  color: #0176a9;
+}
+
+/* ==========/AUTHOR========== */
